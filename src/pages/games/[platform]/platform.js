@@ -6,6 +6,7 @@ import { GridGames } from "@/components/Shared/GridGames/GridGames";
 import { Separator } from "@/components/Shared/Separator/Separator";
 import { NoResult } from "@/components/Shared/NoResult/NoResult";
 import { Pagination } from "@/components/Shared/Pagination/Pagination";
+import { Seo } from "@/components/Shared/Seo/Seo";
 
 export default function PlatformPage(props) {
   const { games, platform, pagination } = props;
