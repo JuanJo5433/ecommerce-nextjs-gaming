@@ -5,6 +5,7 @@ import { CartLayout } from "@/layouts/CartLayout/CartLayout";
 import { useCart } from "@/hooks/useCart";
 import { Cart } from "@/components/Cart";
 import { Game } from "@/api/game";
+import { Seo } from "@/components/Shared/Seo/Seo";
 
 const gameCtrl = new Game();
 
